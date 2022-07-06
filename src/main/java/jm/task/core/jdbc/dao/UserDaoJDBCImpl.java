@@ -12,7 +12,7 @@ public class UserDaoJDBCImpl implements UserDao {
         String ddl = "create table if not exists kata.Users(Id bigint not null auto_increment primary key, \n" +
                 "Name varchar(32) not null, \n" +
                 "LastName varchar(64) not null, \n" +
-                "Age smallint(3) not null);";
+                "Age tinyint not null);";
         if(Util.getConnection() == null) {
             Util.connect();
         }
