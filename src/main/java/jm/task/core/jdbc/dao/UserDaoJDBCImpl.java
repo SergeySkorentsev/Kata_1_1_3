@@ -110,7 +110,7 @@ public class UserDaoJDBCImpl implements UserDao {
 //            System.out.println("Table truncated");
         } catch(SQLException e) {
             System.out.println ("ERROR: " + e.getMessage());
-        } catch(NullPointerException e) {
+        } catch(NullPointerException ex) {
             System.out.println("Database connection not established...");
         }
     }

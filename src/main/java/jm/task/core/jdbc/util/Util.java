@@ -13,8 +13,8 @@ public class Util {
             String url = "jdbc:mysql://localhost:3306/mysql";
             conn = DriverManager.getConnection (url, userName, password);
             System.out.println ("Database Connection Established...");
-        } catch (ClassCastException ex) {
-            System.out.println ("ERROR: " + ex.getMessage());
+        } catch (ClassCastException e) {
+            System.out.println ("ERROR: " + e.getMessage());
         } catch (Exception ex) {
             System.err.println ("Cannot connect to database server");
             ex.printStackTrace();
