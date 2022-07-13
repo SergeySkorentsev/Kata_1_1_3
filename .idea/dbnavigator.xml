@@ -29,7 +29,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="34f4f50b-f0a5-48e3-a955-85c67ab719dc">
-      <console name="LocalDB" type="STANDARD" schema="mysql" session="Main" />
+      <console name="LocalDB" type="STANDARD" schema="mysql" session="Main"><![CDATA[drop table kata.users;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -39,7 +39,7 @@
     <connection id="34f4f50b-f0a5-48e3-a955-85c67ab719dc" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="34f4f50b-f0a5-48e3-a955-85c67ab719dc" dataset="kata.users" active-filter-id="" />
+    <filter-actions connection-id="34f4f50b-f0a5-48e3-a955-85c67ab719dc" dataset="kata.users" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
