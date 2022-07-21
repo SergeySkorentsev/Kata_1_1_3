@@ -29,7 +29,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="34f4f50b-f0a5-48e3-a955-85c67ab719dc">
-      <console name="LocalDB" type="STANDARD" schema="mysql" session="Main"><![CDATA[drop table kata.users;]]></console>
+      <console name="LocalDB" type="STANDARD" schema="mysql" session="Main"><![CDATA[select * from kata.users;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
